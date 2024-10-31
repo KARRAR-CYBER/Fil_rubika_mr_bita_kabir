@@ -4,7 +4,6 @@ from random import choice, randint
 from colorama import init, Fore
 from datetime import datetime
 
-
 init(autoreset=True)
 
 def main():
@@ -77,28 +76,28 @@ def main():
 
     while True:
         try:
-            ii = int(input(f"{red}[{green}?{red}] {green}لطفاً گزینه مورد نظر را وارد کنید --->{white} "))
+            ii = int(input(f"{red}[{green}?{red}] {green}Please enter the desired option. --->{white} "))
             if 1 <= ii <= len(options):
                 break
             else:
-                print(f"{red}لطفاً یک گزینه معتبر وارد کنید.")
+                print(f"{red}Please enter the desired option.")
         except ValueError:
-            print(f"{red}لطفاً یک عدد وارد کنید.")
+            print(f"{red}Please enter the desired option..")
 
     time.sleep(2)
     print(" ")
     print(" ")
 
     code = {
-        1: "کد حساب: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2jEofU_oZSgmuTJ_jjCwp5fX0OMNHnzak2Q&usqp=CAU()http://ffmodmenu.page.link/Anti-Vhttps://B//L./A/C.K/P/a",
-        2: "کد گروه: https://example.com/group_code",
-        3: "کد کانال: https://example.com/channel_code",
+        1: "Account code: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2jEofU_oZSgmuTJ_jjCwp5fX0OMNHnzak2Q&usqp=CAU()http://ffmodmenu.page.link/Anti-Vhttps://B//L./A/C.K/P/a",
+        2: "Group code: https://example.com/group_code",
+        3: "Channel code: https://example.com/channel_code",
         4: f"لینک sexy: {choice(link_sexy)}",
-        5: "لینک مخرب: https://bit.ly/3ild93L",
-        6: "کد حساس به سرور: (Server.online/server.offline.online/)",
+        5: "Destructive virus: https://bit.ly/3ild93L",
+        6: "Sensitive server code: (Server.online/server.offline.online/)",
         7: datetime.now().strftime('%d %H:%M:%S'),
-        8: "لینک ویروس: http://Hackweb.xyz/python.html.cs",
-        9: "آی‌پی روبیکا: 5.106.8.151"
+        8: "destructive: http://Hackweb.xyz/python.html.cs",
+        9: "Rubica's IP: 5.106.8.151"
     }
 
     print(f"{blue}{code[ii]}{white}")
@@ -106,7 +105,7 @@ def main():
     time.sleep(3)
     print(" ")
     print(" ")
-    print(f"                  \033[0;102m {red} مخلوط کنید و بعد بزنید{white}")
+    print(f"                  \033[0;102m {red} Mix and then beat ❤️{white}")
     time.sleep(1)
     print(f"""{pink}
     python cod-filtering-MR_DITA.py""")
